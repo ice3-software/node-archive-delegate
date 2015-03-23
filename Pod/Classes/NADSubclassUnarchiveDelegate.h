@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SpriteKit/SpriteKit.h>
 
 @interface NADSubclassUnarchiveDelegate : NSObject <NSKeyedUnarchiverDelegate>
 

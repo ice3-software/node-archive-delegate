@@ -28,11 +28,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'node-archive-delegate' => ['Pod/Assets/*.png']
-  }
+  s.resource_bundles = {}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'SpriteKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

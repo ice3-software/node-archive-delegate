@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 IceCube Software Ltd. All rights reserved.
 //
 
-#import "EULLNodeSubclassUnarchiveDelegate.h"
+#import "NADSubclassUnarchiveDelegate.h"
 
 @interface NADSubclassUnarchiveDelegate ()
 
