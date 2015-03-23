@@ -34,15 +34,13 @@
     }];
 }
 
-- (SKNode *)mappedNodeFromNode:(SKNode *)node {
-    
+- (SKNode *)mappedNodeFromNode:(SKNode *)node {    
     NSData *archivedNode = [NSKeyedArchiver archivedDataWithRootObject:node];
     NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:archivedNode];
     [unarchiver setClass:(Class)self.registeredMappings[node.name] forClassName:NSStringFromClass(node.class)];
     SKNode *replacementNode = [unarchiver decodeObjectForKey:NSKeyedArchiveRootObjectKey];
     [unarchiver finishDecoding];
     return replacementNode;
-
 }
 
 - (id)unarchiver:(NSKeyedUnarchiver *)unarchiver didDecodeObject:(id)object {

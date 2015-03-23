@@ -1,6 +1,6 @@
 #Node Unarchive Delegate
 
-Here's one for you: XCode's new SpriteKit scene editor doesn't allow you to change the class of nodes in the scene [like interface builder](https://vandadnp.files.wordpress.com/2011/03/myview-class-name-in-interface-builder.png). This is rather inconvenient if for example, you want to setup your custom sprite subclasses in the scene:
+Here's one for you: XCode's new SpriteKit scene editor [doesn't allow you to change the class of nodes](http://stackoverflow.com/questions/24466536/how-to-use-spritekit-archives-with-skspritenode-subclasses) in the scene [like interface builder](https://vandadnp.files.wordpress.com/2011/03/myview-class-name-in-interface-builder.png). This is rather inconvenient if for example, you want to setup your custom sprite subclasses in the scene:
 
 
 ```Objective-C
