@@ -47,4 +47,4 @@ MyAwesomeScene *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
 
 Not really sure. It seems valid enough given that I'm making valid use of the `NSKeyedUnarchiverDelegate` to replace decoded objects.
 
-The only questionable architectural decision I've made is using instances `NSKeyedArchiver` and `NSKeyedUnarchiver` witihn the delegate to actually clone the node data into an instance of its subclass.
+The only questionable architectural decision I've made is using instances `NSKeyedArchiver` and `NSKeyedUnarchiver` within the delegate to actually clone the node data into an instance of its subclass.
