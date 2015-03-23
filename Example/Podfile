@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'node-archive-delegate', :exclusive => true do
+  pod "node-archive-delegate", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "node-archive-delegate", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
