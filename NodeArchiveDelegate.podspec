@@ -8,21 +8,17 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "node-archive-delegate"
+  s.name             = "NodeArchiveDelegate"
   s.version          = "0.1.0"
-  s.summary          = "A short description of node-archive-delegate."
+  s.summary          = "A tricksey d."
   s.description      = <<-DESC
-                       An optional longer description of node-archive-delegate
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A tricksy archive delegate that subclasses your SKNodes by name.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/node-archive-delegate"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/ice3-software/node-archive-delegate"
   s.license          = 'MIT'
   s.author           = { "stephen fortune" => "steve.fortune@icecb.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/node-archive-delegate.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ice3-software/node-archive-delegate.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/IceCubeSoftware'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -32,5 +28,4 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'SpriteKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

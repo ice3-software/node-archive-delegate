@@ -23,7 +23,7 @@ Here's one for you: XCode's new SpriteKit scene editor [doesn't allow you to cha
 
 ```
 
-This [tricksey little class](http://i.ytimg.com/vi/NB2CNr692RE/maxresdefault.jpg) allows you to swap out nodes with your custom subclass by name during the unarchive process. I.e.
+This [tricksy little class](http://i.ytimg.com/vi/NB2CNr692RE/maxresdefault.jpg) allows you to swap out nodes with your custom subclass by name during the unarchive process. I.e.
 
 ```Objective-C
 
