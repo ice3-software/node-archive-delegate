@@ -29,7 +29,7 @@ This [tricksey little class](http://i.ytimg.com/vi/NB2CNr692RE/maxresdefault.jpg
 
 NADSubclassUnarchiveDelegate *delegate = [[NADSubclassUnarchiveDelegate alloc] init];
 [delegate registerSubclassClass:[MyHeroSprite class] forNodeNamed:@"Hero"];
-[delegate registerSubclassClass:[MyHeroSprite class] forNodeNames:@[ @"Alien1", @"Alien2", @"Alien3", ]];
+[delegate registerSubclassClass:[MyEnemySprite class] forNodeNames:@[ @"Alien1", @"Alien2", @"Alien3", ]];
 
 NSString *nodePath = [[NSBundle mainBundle] pathForResource:file ofType:@"sks"];
 NSData *data = [NSData dataWithContentsOfFile:nodePath options:NSDataReadingMappedIfSafe error:nil];
