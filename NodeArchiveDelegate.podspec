@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "NodeArchiveDelegate"
-  s.version          = "0.1.0"
-  s.summary          = "A tricksey d."
+  s.version          = "0.2.0"
+  s.summary          = "A tricksy archive delegate that subclasses your SKNodes by name."
   s.description      = <<-DESC
                        A tricksy archive delegate that subclasses your SKNodes by name.
                        DESC
